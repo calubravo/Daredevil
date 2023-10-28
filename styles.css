@@ -1,0 +1,336 @@
+/* Estilos generales */
+body {
+    font-family: 'Texturina';
+    margin: 0;
+    padding: 0;
+    background-color: #a72727;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #333;
+    color: #ffffffbe;
+    text-align: center; /* Centrar el contenido del header */
+font-family: 'Oswald';
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 8%; 
+    left: 10%;
+    transform: translate(-50%, -50%); 
+}
+.logo img {
+    width: 100px; /* Ajusta el ancho del logotipo según tus necesidades */
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Estilos para el submenú */
+ul li:hover > ul {
+    display: block;
+}
+ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333; 
+    list-style: none;
+    padding: 0;
+    z-index: 4;
+}
+ul ul li {
+    width: 100%;
+    margin-left: 0;
+}
+ul ul li a {
+    color:#fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+ul ul li a:hover {
+    background-color:#bd2727b5;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logotipo con la lista de enlaces */
+    
+}
+ul li {
+    margin: 0 15px;
+}
+/* Estilos para el contenido principal */
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+ body{
+    background-image:url(https://wallpapercave.com/wp/wp6776560.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: #fff;
+}
+.contenido {  
+ background-color: #333333c5;
+ margin-top: 7%;
+ margin-bottom: 7%;
+ margin-left: 10%;
+ margin-right: 10%;
+ padding: 3%;
+}
+/*.contenido h1{
+    font-family: 'Oswald';
+    font-style: bold;
+    font-size:50px;
+}*/
+.contenido p{
+    font-size: x-large;
+
+}
+.contenido img {
+    float: center;  
+    width: 300px;
+    
+}
+.galeria {
+    background-color: #333333c5;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 10%;
+    margin-right:10% ;
+    margin-bottom: 5%;
+    font-family:'Oswald';
+}
+.galeria h1{
+    font-size: 40px;
+    float:left;
+}
+.galeria div{
+    clear: both;
+ 
+}
+.temp{
+    background-color: #333333c5;
+    font-family:'Texturina';
+    padding: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.tempintro{
+    text-align: left;
+    margin-bottom: 15%;
+}
+.tempintro h1{
+    text-align: right;
+    font-family: 'Oswald';
+    font-size:35px;  
+}
+.tempintro img {
+    float: left; /* Alinea la imagen a la izquierda */
+    width: 250px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.tempintro p{
+    font-size: 20px;
+    } 
+.episodios{
+    clear: both;
+}
+.episodios h2{
+    font-size: 20px;
+    }
+
+.episodios p{
+    font-size: 15px;
+    text-align: left; 
+    } 
+.episodios a{
+    font-size: 20px;
+    font-family: 'oswald';
+    color: #fff;
+    font-style: bold; 
+    margin-bottom: 10%;   
+    }
+main p  {
+    text-align: left;
+}
+.FORMU{
+    background-color: #333333c5;
+ margin-top: 3%;
+ margin-bottom: 7%;
+ margin-left: 10%;
+ margin-right: 10%;
+ padding: 3%;
+}
+.FORMU h1{
+    font-family: 'Oswald';
+}
+/*formulario*/
+form {
+    max-width: 600px; /* Ajusta el ancho máximo del formulario según tus preferencias */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    position: relative; /* Asegura que el formulario aparezca sobre el fondo */
+     /* Ajusta la posición vertical según tus preferencias */
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold; /* Hace que las etiquetas sean negritas */
+    color: rgb(255, 255, 255); /* Color del texto de la etiqueta */
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #B8B296ff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #B8B296ff; /*Color del texto de entrada*/
+    background-color: transparent;
+}
+form textarea {
+    height: 150px; /* Ajusta la altura del campo de texto según tus preferencias */
+    background-color: transparent;
+}
+form input[type="submit"] {
+    background-color:#a72727 ;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border:#fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Oswald';
+    font-style: bold;
+    cursor: pointer;
+}
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    text-align: center;
+    clear:both;
+    padding: 20px 0;
+}
+.imagenes-footer img {
+    width: 30px;
+    padding: 10px;
+    align-content:space-around;
+
+}
+/* Estilos para pantallas medianas y pequeñas */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px; /* Redefine el tamaño de fuente para pantallas pequeñas (celulares) */
+    }
+
+    .logo {
+        text-decoration: none;
+        color: #fff;
+        position:absolute;
+        top: 4%;
+        left: 10%;
+        transform: translate(-50%, -50%); 
+        
+    }
+    .logo img{
+        clear: both;
+        width: 65px;  
+    }
+
+    .contenido p{
+        font-size: 2.5vw;
+        justify-content: center;
+    }
+    .contenido img{
+        margin-top:3%;
+       justify-content: center;
+       width: 200px;
+    }
+    nav {
+        font-size: 0.75em; /* Cambia el tamaño de fuente del menú de navegación */
+        justify-content: right;  
+    }
+    ul li {
+        margin-left: 0px; /* Ajusta el espaciado del menú de navegación */
+    }
+
+    .temp{
+        background-color: #333333c5;
+        font-family:'Texturina';
+        padding: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .tempintro{
+        text-align: left;
+        margin-bottom: 25%;
+    }
+    .tempintro h1{
+        clear: both;
+        text-align: left;
+        font-family: 'Oswald';
+        font-size:5vw;
+    }
+    .episodios h2{
+    font-size: 4vw;
+    }
+    .tempintro p{
+        font-size: 3vw;
+        } 
+    .episodios p{
+        font-size: 3vw;
+        } 
+    .episodios a{
+        font-size: 3vw;
+        }
+    .tempintro div{
+        display: flex;
+        justify-content: center;
+    }
+    .tempintro img {
+        margin-right: 0%;
+        width: 200px;
+        margin-bottom: 5%;
+       float: none;
+       align-items: center;
+    }
+}
+
+
+@font-face {
+    font-family:'Imbue';
+    src: url('Fonts/Imbue/Imbue-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('Fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Texturina';
+    src: url('Fonts/Texturina/Texturina-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Texturina';
+    src: url('Fonts/Texturina/Texturina-VariableFont_opsz\,wght.ttf') format('truetype');
+}

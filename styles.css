@@ -183,6 +183,41 @@ main p  {
 .FORMU h1{
     font-family: 'Oswald';
 }
+/*personajes */
+.personajes {
+    font-family: 'Texturina';
+    background-color:#333333c5;
+    padding: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+}
+
+.personajes h1{
+    font-size: 35px;
+    font-family: 'Oswald';
+}
+.personajes div {
+    clear: both;
+    margin-bottom: 2%;
+}
+.personajes div  img{
+    height: 225px;
+    float: left;
+    padding: 1%;
+    clear: both;
+}
+.personajes div h2{
+    font-size: 25px;
+    font-style: bold;   
+
+}
+.personajes div p{
+    font-size: 15px;
+    text-align: left; 
+    margin-left: 2%;
+    
+    }
 /*formulario*/
 form {
     max-width: 600px; /* Ajusta el ancho máximo del formulario según tus preferencias */

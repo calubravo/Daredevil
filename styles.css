@@ -376,8 +376,56 @@ footer {
        float: none;
        align-items: center;
     }
+    .personajes h1{
+        font-size: 5vw;
+        font-family: 'Oswald';
+    }
+    .personajes div {
+        clear: both;
+        padding-bottom: 6%;
+        margin-bottom: 0%;
+    }
+    .personajes div  img{
+        height: 150px;
+        padding: 1%;
+    }
+    .personajes div h2{
+        font-size: 4vw;
+        font-style: bold;   
+        clear: both;
+    
+    }
+    .personajes div p{
+        font-size: 3vw;
+        text-align: left; 
+        margin-left: 2%;
+        margin-bottom: 4%;
+        }
+    .reseñas h1{
+        clear: both;
+        text-align: left;
+        font-family: 'Oswald';
+        font-size:5vw;
+    }
+    .reseñas p{
+            font-size: 3vw;
+            } 
+    .reseñas a{
+            font-size: 3vw;
+            }
+    form  {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    padding-bottom: 30%;
+      
 }
-
+body{
+    background-position: center;
+    color: #fff;
+}
+}
 
 @font-face {
     font-family:'Imbue';

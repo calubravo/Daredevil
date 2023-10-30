@@ -183,6 +183,32 @@ main p  {
 .FORMU h1{
     font-family: 'Oswald';
 }
+.reseñas {
+    font-family: 'Texturina';
+    background-color:#333333c5;
+    padding: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.reseñas h1{
+    font-size: 35px;
+    font-family: 'Oswald';
+}
+.reseñas p{
+    font-size: 15px;
+    text-align: left; 
+    
+}
+.reseñas a{
+    font-size: 20px;
+    font-family: 'oswald';
+    color: #fff;
+    font-style: bold; 
+    margin-bottom: 10%;   
+
+}
 /*personajes */
 .personajes {
     font-family: 'Texturina';

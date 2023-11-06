@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Daredevil</title>
+    
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html" class="logo" ><img src="Daredevil - copia/LOGOO.png" alt="Logo"></a>
-            <ul> 
+            <a href="index.html" class="logo"><img src="Daredevil - copia/LOGOO.png" alt="Logo"></a>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-menu">
                 <li><a href="reseñas.html">RESEÑAS</a></li>
                 <li><a href="javascript:void(0)" class="dropbtn">TEMPORADAS</a>
-                    <ul>
+                    <ul class="desp">
                         <li><a href="temporada1.html">Temporada 1</a></li>
                         <li><a href="temporada2.html">Temporada 2</a></li>
                         <li><a href="temporada3.html">Temporada 3</a></li>
@@ -21,7 +28,7 @@
                 </li>
                 <li><a href="galeria.html">GALERIA</a></li>
                 <li><a href="javascript:void(0)" class="dropbtn">PERSONAJES</a>
-                    <ul>
+                    <ul class="desp">
                         <li><a href="principales.html">Principales</a></li>
                         <li><a href="secundarios.html">Secundarios</a></li>
                     </ul>
@@ -35,26 +42,35 @@
        <p>  “Todos los elementos clave del personaje están en esta serie, como su origen, sus dudas internas,
          los secundarios habituales y el tono de serie negra que muchos fans esperan de la serie. 
          Todo hábilmente combinado, de forma coherente y, como extra, está relacionada con el resto del 
-         Universo Cinematográfico Marvel a través de esos pequeños detalles a los que, desde el estudio, nos han acostumbrado.” <strong> – Geektopia</strong></p> 
-        <a href="https://www.geektopia.es/es/movies/2015/04/10/analisis/resena-daredevil.html"><u> Reseña completa</u></a>
+         <i><b>Universo Cinematográfico Marvel</b></i> a través de esos pequeños detalles a los que, desde el estudio, nos han acostumbrado.” <strong> – Geektopia</strong></p> 
+        <a href="https://www.geektopia.es/es/movies/2015/04/10/analisis/resena-daredevil.html"target="_blank"><u> Reseña completa</u></a>
 
         <p> “Muy apegada a la historia del material original, producción de alta calidad y un estilo dramático sensato,
-        Daredevil sobresale como una historia eficaz sobre el origen de un superhéroe, un procedimiento valiente y una emocionante
+       <i><b> Daredevil</b></i> sobresale como una historia eficaz sobre el origen de un superhéroe, un procedimiento valiente y una emocionante
         aventura de acción.”<strong>– Rotten Tomatoes</strong></p> 
-        <a href=" https://www.rottentomatoes.com/tv/daredevil/s01"><u> Reseña completa</u></a>   
+        <a href=" https://www.rottentomatoes.com/tv/daredevil/s01"target="_blank"><u> Reseña completa</u></a>   
 
-        <p> “Daredevil de Marvel es único en su tipo. Es un programa completo que hay que ver al menos una vez. 
+        <p> “<i><b> Daredevil</b></i> de <i>Marvel</i> es único en su tipo. Es un programa completo que hay que ver al menos una vez. 
         La historia salvaje y fuera de lo común de un hombre ciego que es abogado de día y justiciero de noche permanecerá
         contigo mucho después de que hayas terminado con la historia.” <strong> – Collider</strong></p>  
-         <a href=" https://collider.com/why-to-watch-daredevil-if-you-havent-yet/ "><u> Reseña completa</u></a>
+         <a href=" https://collider.com/why-to-watch-daredevil-if-you-havent-yet/ "target="_blank"><u> Reseña completa</u></a>
 
     </article>
     <footer>
         <div class="imagenes-footer">
-           <a href="https://www.instagram.com/daredevil/"><img src="Daredevil - copia/ig.png" alt="Instagram"></a>
-           <a href="https://www.youtube.com/@marvel"><img src="Daredevil - copia/yt.png" alt="YouTube"></a>
-           <a href="https://twitter.com/Daredevil"> <img src="Daredevil - copia/x.png" alt="X"></a>
-           <a href=""> <img src="Daredevil - copia/wpp.png" alt="Facebook"></a>
+           <a href="https://www.instagram.com/daredevil/"target="_blank"><img src="Daredevil - copia/ig.png" alt="Instagram"></a>
+           <a href="https://www.youtube.com/@marvel"target="_blank"><img src="Daredevil - copia/icons8-youtube-play-100.png" alt="YouTube"></a>
+           <a href="https://twitter.com/Daredevil"target="_blank"> <img src="Daredevil - copia/x.png" alt="X"></a>
+           <a href="https://www.facebook.com/Daredevil/?locale=es_LA"target="_blank"> <img src="Daredevil - copia/icons8-facebook-nuevo-100.png" alt="Facebook"></a>
         </div>
     </footer>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navMenu = document.querySelector(".nav-menu");
+
+        menuToggle.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+            menuToggle.classList.toggle("active");
+        });
+    </script>
 </html>

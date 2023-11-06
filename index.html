@@ -9,11 +9,16 @@
 <body>
     <header>
         <nav>
-            <a href="index.html" class="logo" ><img src="Daredevil - copia/LOGOO.png" alt="Logo"></a>
-            <ul> 
+            <a href="index.html" class="logo"><img src="Daredevil - copia/LOGOO.png" alt="Logo"></a>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-menu">
                 <li><a href="reseñas.html">RESEÑAS</a></li>
                 <li><a href="javascript:void(0)" class="dropbtn">TEMPORADAS</a>
-                    <ul>
+                    <ul class="desp">
                         <li><a href="temporada1.html">Temporada 1</a></li>
                         <li><a href="temporada2.html">Temporada 2</a></li>
                         <li><a href="temporada3.html">Temporada 3</a></li>
@@ -21,7 +26,7 @@
                 </li>
                 <li><a href="galeria.html">GALERIA</a></li>
                 <li><a href="javascript:void(0)" class="dropbtn">PERSONAJES</a>
-                    <ul>
+                    <ul class="desp">
                         <li><a href="principales.html">Principales</a></li>
                         <li><a href="secundarios.html">Secundarios</a></li>
                     </ul>
@@ -31,28 +36,36 @@
         </nav>
     </header>
     <main>
-        
         <div class="contenido">
             <img src="Daredevil - copia/LOGOO.png" alt="logo Daredevil">
-                <p>Tras la invasión de Nueva York (Avengers I), la mayor parte de Hell's Kitchen está destruida y
-                     el crimen está en su punto más alto, y el submundo criminal está controlado por un hombre
-                      llamado Fisk. Matt Murdock y su amigo Foggy son unos prometedores abogados defensores de Hell's Kitchen que andan escasos de dinero.
-                       Matt Murdock, el protagonista de la serie, que sin saberlo su mejor amigo y colega se
-                        pluriemplea como Daredevil; un justiciero ciego y enmascarado que trabaja para librar 
-                        las calles del crimen. A lo largo de la serie, Matthew pasa por varios cambios y se enfrenta a 
-                        numerosos retos para convertirse en el héroe que está destinado a ser. La primera temporada se 
-                        centra en el crecimiento personal de Matthew Murdock, y su evolución desde ser el justiciero enmascarado,
-                         hasta convertirse en Daredevil.</p>
-            
-            
+            <p>Tras la invasión de Nueva York (Avengers I), la mayor parte de Hell's Kitchen está destruida y
+                el crimen está en su punto más alto, y el submundo criminal está controlado por un hombre
+                llamado Fisk. Matt Murdock y su amigo Foggy son unos prometedores abogados defensores de Hell's Kitchen que andan escasos de dinero.
+                Matt Murdock, el protagonista de la serie, que sin saberlo su mejor amigo y colega se
+                pluriemplea como Daredevil; un justiciero ciego y enmascarado que trabaja para librar
+                las calles del crimen. <br><br> A lo largo de la serie, Matthew pasa por varios cambios y se enfrenta a
+                numerosos retos para convertirse en el héroe que está destinado a ser. La primera temporada se
+                centra en el crecimiento personal de Matthew Murdock, y su evolución desde ser el justiciero enmascarado,
+                hasta convertirse en Daredevil.</p>
         </div>
     </main>
     <footer>
         <div class="imagenes-footer">
            <a href="https://www.instagram.com/daredevil/"target="_blank"><img src="Daredevil - copia/ig.png" alt="Instagram"></a>
-           <a href="https://www.youtube.com/@marvel"target="_blank"><img src="Daredevil - copia/yt.png" alt="YouTube"></a>
+           <a href="https://www.youtube.com/@marvel"target="_blank"><img src="Daredevil - copia/icons8-youtube-play-100.png" alt="YouTube"></a>
            <a href="https://twitter.com/Daredevil"target="_blank"> <img src="Daredevil - copia/x.png" alt="X"></a>
-           <a href=""> <img src="Daredevil - copia/wpp.png" alt="Facebook"></a>
+           <a href="https://www.facebook.com/Daredevil/?locale=es_LA"target="_blank"> <img src="Daredevil - copia/icons8-facebook-nuevo-100.png" alt="Facebook"></a>
         </div>
     </footer>
+
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navMenu = document.querySelector(".nav-menu");
+
+        menuToggle.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+            menuToggle.classList.toggle("active");
+        });
+    </script>
+</body>
 </html>

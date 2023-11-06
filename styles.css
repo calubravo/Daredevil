@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a72727;
+    font-weight: lighter;
 }
 /* Estilos para el header */
 header {
@@ -61,6 +62,7 @@ nav {
     align-items: center;
     justify-content: center;
     font-size: x-large;
+    font-weight: normal;
 }
 ul {
     list-style-type: none;
@@ -105,8 +107,8 @@ main {
     padding-bottom: 3%;
     padding-left: 6%;
     padding-right: 6%;
-    margin-left: 10%;
-    margin-right:10% ;
+    margin-left: 15%;
+    margin-right:15% ;
     margin-bottom: 5%;
     font-family:'Oswald';
 }
@@ -157,10 +159,10 @@ main {
     text-align: left; 
     } 
 .episodios a{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'oswald';
     color: #fff;
-    font-style: bold; 
+    font-weight: bolder; 
     margin-bottom: 10%;   
     }
 main p  {
@@ -196,11 +198,12 @@ main p  {
     
 }
 .reseñas a{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'oswald';
     color: #fff;
     font-style: bold; 
-    margin-bottom: 10%;   
+    margin-bottom: 10%;  
+    font-weight: lighter; 
 
 }
 /*personajes */
@@ -500,6 +503,11 @@ ul.nav-menu {
     position: relative;
     padding-bottom: 30%;
       
+}
+.galeria {
+    margin-left: 5%;
+    margin-right:5% ;
+    
 }
 body{
     background-position: center;

@@ -85,6 +85,15 @@ main {
     background-attachment: fixed; 
     color: #fff;
 }
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
 .contenido {  
  background-color: #333333c5;
  margin-top: 7%;
@@ -93,10 +102,10 @@ main {
  margin-right: 10%;
  padding: 3%;
 }
-.contenido p{
+/*.contenido p{
     font-size: 25px;
 
-}
+}*/
 .contenido img {
     float: center;  
     width: 300px;
@@ -113,7 +122,6 @@ main {
     font-family:'Oswald';
 }
 .galeria h1{
-    font-size: 40px;
     float:left;
 }
 .galeria div{
@@ -136,7 +144,6 @@ main {
 .tempintro h1{
     text-align: right;
     font-family: 'Oswald';
-    font-size:35px;  
 }
 .tempintro img {
     float: left; 
@@ -144,18 +151,13 @@ main {
     margin-right: 5%;
     margin-bottom: 5%;
 }
-.tempintro p{
-    font-size: 20px;
-    } 
+
 .episodios{
     clear: both;
 }
-.episodios h2{
-    font-size: 20px;
-    }
+
 
 .episodios p{
-    font-size: 15px;
     text-align: left; 
     } 
 .episodios a{
@@ -189,11 +191,11 @@ main p  {
     margin-bottom: 4%;
 }
 .reseñas h1{
-    font-size: 35px;
+    
     font-family: 'Oswald';
 }
 .reseñas p{
-    font-size: 15px;
+   
     text-align: left; 
     
 }
@@ -221,7 +223,7 @@ main p  {
 }
 
 .personajes h1{
-    font-size: 35px;
+   
     font-family: 'Oswald';
 }
 .personajes div {
@@ -235,12 +237,11 @@ main p  {
     clear: both;
 }
 .personajes div h2{
-    font-size: 25px;
+    
     font-style: bold;   
 
 }
 .personajes div p{
-    font-size: 15px;
     text-align: left; 
     margin-left: 2%;
     
@@ -407,8 +408,16 @@ ul.nav-menu {
         width: 65px;  
         margin-top: 60%;
     }
+    p{
+        font-size: 3vw;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
     .contenido p{
-        font-size: 2.5vw;
         justify-content: center;
     }
     .contenido img{
@@ -434,18 +443,9 @@ ul.nav-menu {
         clear: both;
         text-align: left;
         font-family: 'Oswald';
-        font-size:5vw;
     }
-    .episodios h2{
-    font-size: 4vw;
-    }
-    .tempintro p{
-        font-size: 3vw;
-        } 
-    .episodios p{
-        font-size: 3vw;
-        } 
-    .episodios a{
+    
+     a{
         font-size: 3vw;
         }
     .tempintro div{
@@ -460,7 +460,6 @@ ul.nav-menu {
        align-items: center;
     }
     .personajes h1{
-        font-size: 5vw;
         font-family: 'Oswald';
     }
     .personajes div {
@@ -473,13 +472,11 @@ ul.nav-menu {
         padding: 1%;
     }
     .personajes div h2{
-        font-size: 4vw;
         font-style: bold;   
         clear: both;
     
     }
     .personajes div p{
-        font-size: 3vw;
         text-align: left; 
         margin-left: 2%;
         margin-bottom: 4%;
@@ -488,14 +485,8 @@ ul.nav-menu {
         clear: both;
         text-align: left;
         font-family: 'Oswald';
-        font-size:5vw;
     }
-    .reseñas p{
-            font-size: 3vw;
-            } 
-    .reseñas a{
-            font-size: 3vw;
-            }
+    
     form  {
     max-width: 80%;
     margin: 0 auto;
